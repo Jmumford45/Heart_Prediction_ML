@@ -1,0 +1,3 @@
+I will be deploying as a web application with a flask backend and a simple react 
+frontend. 
+Will be using Heroku to deploy the web application
