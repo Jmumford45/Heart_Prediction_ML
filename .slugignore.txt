@@ -3,3 +3,10 @@ __pycache__/
 catboost_info/
 notebooks/
 *.txt
+*.pkl
+*.csv
+*.joblib
+/UI/frontend/public/
+/UI/frontend/node_modules/
+/UI/fronend/build/
+
