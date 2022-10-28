@@ -44,7 +44,7 @@ class App extends Component{
       const formData = this.state.formData;
       this.setState({isLoading: true});
       console.log(JSON.stringify(formData))
-      fetch("/prediction",
+      fetch("https://heartprediction-app.herokuapp.com/prediction",
       {
         headers: {
           'Accept': 'application/json',
