@@ -2,7 +2,6 @@
 __pycache__/
 catboost_info/
 notebooks/
-*.txt
 *.pkl
 *.csv
 *.joblib
