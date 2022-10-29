@@ -4,7 +4,7 @@ import joblib
 from pickle import load
 from model import pipelineTransform, reorder
 
-flask_app = Flask(__name__, static_folder="UI/frontend/build")
+flask_app = Flask(__name__, static_folder="C:/Users/JMumf/Documents/ML_BootCamp_resc_files/Capstone Files/UI/frontend/build")
 app = Api(app = flask_app,
                 version="1.0",
                 title="Predict Heart Diseased",
@@ -31,7 +31,7 @@ scaler = joblib.load('scaler.joblib')
 with open('headers.pkl', 'rb') as f:
     headers_df = load(f)
 
-@app.route("/prediction")
+@app.route("/")
 class MainClass(Resource):
 
 	def options(self):
