@@ -4,7 +4,7 @@ import joblib
 from pickle import load
 from model import pipelineTransform, reorder
 
-flask_app = Flask(__name__, static_folder='C:\Users\JMumf\Documents\ML_BootCamp_resc_files\Capstone Files\UI\frontend\build')
+flask_app = Flask(__name__, static_folder="UI/frontend/build")
 app = Api(app = flask_app,
                 version="1.0",
                 title="Predict Heart Diseased",
