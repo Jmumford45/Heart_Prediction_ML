@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, make_response
-from flask_restplus import Api, Resource, fields
+from flask_restx import Api, Resource, fields
 import joblib
 from pickle import load
 from model import pipelineTransform, reorder
